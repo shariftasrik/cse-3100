@@ -45,7 +45,7 @@ export default function Home() {
         <div className="mt-2 row g-4" id="cats-container"></div>
         <div className="mt-2 row g-4" id="cats-container">
           {cats.map((cat, i) => (
-            <div key={i} className="col-md-4">
+            <div key={i} className="col-md-2">
               <div className="cat-card">
                 <img src={cat.image} alt={cat.name} className="img-fluid mb-2" style={{ borderRadius: '8px', height: '200px', objectFit: 'cover' }} />
                 <div className="cat-info">

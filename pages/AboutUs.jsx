@@ -21,9 +21,28 @@ function AboutUs() {
       <div className="team">
         <div className="team-member">
           <p>Tasrik</p>
-          
+          <img src="" alt="" />
           <p>Director</p>
         </div>
+
+        <div className="team-member">
+          <p>Tasrik</p>
+          <img src="" alt="" />
+          <p>Director</p>
+        </div>
+
+        <div className="team-member">
+          <p>Tasrik</p>
+          <img src="" alt="" />
+          <p>Director</p>
+        </div>
+        <div className="team-member">
+          <p>Tasrik</p>
+          <img src="" alt="" />
+          <p>Director</p>
+        </div>
+
+
 
       </div>
     </div>
