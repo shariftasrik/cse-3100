@@ -1,0 +1,74 @@
+.donate-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fdfdfd;
+  }
+  
+  .donate-title {
+    font-family: 'Pacifico', cursive;
+    color: #1abc9c; 
+    font-size: 2rem;
+  }
+  
+  .donate-text {
+    font-family: 'Arial', sans-serif;
+    color: #34495e;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .donation-options {
+    margin-bottom: 2rem;
+  }
+  
+  .donation-options h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .donation-options ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .donation-options li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .donation-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .donation-form label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donation-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .donate-button {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background-color: #16a085; 
+  }
+  

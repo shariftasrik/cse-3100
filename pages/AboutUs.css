@@ -1,0 +1,48 @@
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+  
+  .about-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    margin-bottom: 20px;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .team-member {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    background: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    .team {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      width: 80%;
+    }
+  }
+  

@@ -10,7 +10,7 @@ export default function Home() {
   const [cats, setCats] = useState([]);
 
   useEffect(() => {
-    // Fetch cat images from an API endpoint and assign it to the featuredCats list
+    
     const fetchCatImages = async () => {
       try {
         const responses = await Promise.all(featuredCats.map(() => fetch('https://api.thecatapi.com/v1/images/search').then((res) => res.json())));
@@ -33,8 +33,10 @@ export default function Home() {
       <section className="text-center mt-4">
         <h2>Welcome to Purrfect Adoption</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luc Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luc
+        Welcome to Purrfect Adoption, where every cat deserves a loving home.
+        Our mission is to connect adorable felines with compassionate families.
+        Discover your new furry friend among our playful and affectionate cats.
+        Let’s make the journey of adoption joyful and unforgettable!
         </p>
       </section>
 
